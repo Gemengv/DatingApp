@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DatingApp\\api\\API.csproj": {}
+    "D:\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\DatingApp\\api\\API.csproj": {
+    "D:\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DatingApp\\api\\API.csproj",
+        "projectUniqueName": "D:\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\DatingApp\\api\\API.csproj",
+        "projectPath": "D:\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\gemen\\.nuget\\packages\\",
-        "outputPath": "D:\\DatingApp\\api\\obj\\",
+        "outputPath": "D:\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gemen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,24 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
