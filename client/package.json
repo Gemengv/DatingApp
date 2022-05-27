@@ -18,9 +18,12 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
+<<<<<<< HEAD
     "bootstrap": "^4.5.3",
     "font-awesome": "^4.7.0",
     "ngx-bootstrap": "^7.1.2",
+=======
+>>>>>>> 616c6e1583fab4e3d93d99a285711b3d9785e85b
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

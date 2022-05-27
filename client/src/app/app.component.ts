@@ -1,11 +1,16 @@
+<<<<<<< HEAD
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+=======
+import { Component } from '@angular/core';
+>>>>>>> 616c6e1583fab4e3d93d99a285711b3d9785e85b
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+<<<<<<< HEAD
 export class AppComponent implements OnInit{
   title = 'The Dating App';
   users: any;
@@ -24,3 +29,8 @@ export class AppComponent implements OnInit{
    }
   }
 
+=======
+export class AppComponent {
+  title = 'client';
+}
+>>>>>>> 616c6e1583fab4e3d93d99a285711b3d9785e85b

@@ -8,9 +8,17 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = API
 build_property.RootNamespace = API
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\gemen\Documents\Code\DatingApp\API\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = c:\Users\gemen\Documents\Code\DatingApp\API
+=======
+build_property.ProjectDir = d:\DatingApp\API\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = d:\DatingApp\API
+>>>>>>> 616c6e1583fab4e3d93d99a285711b3d9785e85b
 build_property._RazorSourceGeneratorDebug = 
