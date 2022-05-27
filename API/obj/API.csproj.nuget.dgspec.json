@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\gemen\\Documents\\Code\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\gemen\\Documents\\Code\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\gemen\\Documents\\Code\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\gemen\\Documents\\Code\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\gemen\\.nuget\\packages\\",
-        "outputPath": "D:\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\gemen\\Documents\\Code\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gemen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.Data.Sqlite.Core": {
               "target": "Package",
               "version": "[6.0.5, )"
@@ -61,6 +65,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
             }
           },
           "imports": [
